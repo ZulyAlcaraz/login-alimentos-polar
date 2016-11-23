@@ -14,4 +14,9 @@
   .form {
     min-width: 100% !important;
   }
+
+  .input, .button {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
