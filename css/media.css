@@ -1,0 +1,17 @@
+
+@media (max-width: 730px){
+  .sponsor-child {
+    margin-right: 0 !important;
+    flex-basis: 50%;
+  }
+
+  .site-footer, .page-wrap:after, .form-wrap:after {
+    height: 271px !important;
+  }
+}
+
+@media (max-width: 451px){
+  .form {
+    min-width: 100% !important;
+  }
+}
