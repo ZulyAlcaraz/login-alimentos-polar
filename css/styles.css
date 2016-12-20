@@ -27,7 +27,7 @@ body {
           animation: fadein 2s;
 
   min-height: 100%;
-  margin-bottom: -171px;
+  margin-bottom: -161px;
   position: relative;
 }
 
@@ -37,7 +37,7 @@ body {
 }
 
 .site-footer, .page-wrap:after, .form-wrap:after {
-  height: 171px;
+  height: 161px;
 }
 
 .site-footer {
@@ -54,6 +54,7 @@ body {
   align-content: center;
   height: 100%;
   width: 100%;
+  transform: scale(0.75);
 }
 
 .sponsor-child:not(:last-child) {
@@ -67,9 +68,10 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: calc(100% - 171px);
-  padding: 100px 0;
+  min-height: calc(100% - 161px);
+  /*padding: 100px 0;*/
   width: 100%;
+  transform: scale(0.75);
 }
 
 .form {
@@ -84,7 +86,7 @@ body {
   background-color: #ffffff;
   border: solid 3px #bdbdbd;
   margin-bottom: 15px;
-  padding: 15px;
+  padding: 0 15px;
   box-sizing: border-box;
   font-size: 16px;
   letter-spacing: 0.4px;
